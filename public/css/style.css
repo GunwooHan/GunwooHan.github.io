@@ -8,7 +8,10 @@
 	font-weight: normal; 
 	font-style: normal; 
 }
-
+.center {
+	display: block;
+	margin: auto;
+  }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

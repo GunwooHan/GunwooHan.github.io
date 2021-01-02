@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  01.VAE(변이형 오토인코더)
+title:  "01.VAE(변이형 오토인코더)"
 date:   2020-12-20 01:49:29 +0900
 categories: GAN_In_Action
 ---

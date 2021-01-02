@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  00. intro
+title:  "00. intro"
 date:   2020-12-20 01:22:18 +0900
 categories: GAN_In_Action
 ---
