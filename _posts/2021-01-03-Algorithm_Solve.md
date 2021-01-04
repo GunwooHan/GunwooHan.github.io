@@ -38,3 +38,6 @@ def solution(number, k):
 <br>
 ![image](/public/img/큰수만들기1.png){: width="100%" height="100%"}{: .center}
 <br>
+모든 케이스를 다 검사해서 시간초과가 났다.  
+1000000(number) * 1000000(k)라 10억을 가뿐히 넘어서 그런듯..  
+<br>
