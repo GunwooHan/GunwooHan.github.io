@@ -138,3 +138,7 @@ train(iterations,batch_size,sample_interval)
 {% endhighlight %}
 
 ![image](/public/img/dcgan_result.png){: width="100%" height="100%"}{: .center}
+<br>
+확실히 바닐라 gan보다는 이미지 품질이 좋게 나오는거 같다.  
+gan으로 생성한 이미지는 일단 학습 자체가 어려워서 성공을 못했었는데, 다행히 dcgan은 이미지 생성에 성공해서, mnist에 실제로 있는 데이터 처럼 보인다.  
+나중엔 더 큰 이미지도 성공해 보고 싶다!  
