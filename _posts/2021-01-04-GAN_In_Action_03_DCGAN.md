@@ -99,7 +99,34 @@ losses = []
 accuracies = []
 iteration_check_points = []
 
-
+def train(iterations, batch_size, sample_interval):
+    (x_train,_),(_,_) = mnist.load_data()
+    
+    x_train = x_train / 127.5 - 1.0
+    x_train = np.expand_dims(x_train,axis=3)
+    
+    real = np.ones((batch_size,1))
+    fake = np.zeros((batch_size,1))
+    
+    for iteration in range(iterations):
+        idx = np.random.randint(0,x_train.shape[0],batch_size)
+        imgs = x_train[idx]
+        
+        z=np.random.normal(0,1,(batch_size,100))
+        gen_imgs = generator.predict(z)
+        
+        d_loss_real = discriminator.train_on_batch(imgs,real)
+        d_loss_fake = discriminator.train_on_batch(gen_imgs,fake)
+        d_loss, accuracy = 0.5 * np.add(d_loss_real,d_loss_fake)
+        
+        g_loss = gan.train_on_batch(z,real)
+        
+        if(iteration+1) % sample_interval == 0:
+            losses.append((d_loss,g_loss))
+            accuracies.append(100.0*accuracy)
+            iteration_check_points.append(iteration+1)
+            print(f"{iteration+1} [D 손실: {d_loss:f}, 정확도: {100.0*accuracy}][G 손실: {g_loss}]")
+            sample_images(generator)
 
 iterations = 20000
 batch_size = 128
