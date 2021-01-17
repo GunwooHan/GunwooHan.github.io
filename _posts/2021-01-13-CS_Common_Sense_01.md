@@ -57,3 +57,9 @@ _그당시 검색기록. 거의 3시간 정도 검색을 한거 같다. 스마�
 이런식으로 표기한다고 한다.
 <br>
 <br>
+### 이후 시간순서를 이해하기 위해 알아보는 언어 출시순서 (C/C++)  
+---
+ALGOL58(IAL, 우리가 흔히 A언어라 부르는) -> ALGOL60 ->  CPL -> BCPL(Basic Combined Programming Language) ->  B -> C -> K&R C -> C with Classes(클래식 C++) -> C++ -> C++ 2.0 -> ANSI C/ISO C -> C++98 -> C99 -> C++03 -> C++TR1(여기부터 모던 C++) -> C++11/C11 -> C++14 -> C++17 -> C18 -> C++20   
+-> (진행중) 
+<br>
+<br>
