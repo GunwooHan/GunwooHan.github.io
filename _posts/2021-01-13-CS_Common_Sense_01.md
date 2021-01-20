@@ -110,3 +110,21 @@ if (e1 | e2)
 버그나 프로그래밍 스킬 관련 질문은 아니었지만, 오랜만에 호기심을 **강하게** 자극하는(?) 질문이었다.
 정말 스쳐지나가듯 들은 A언어(ALGOL58,60)이나 BCPL, B언어도 겸사겸사 알게되었고, 유사전공인데 보면서 한번도 궁금하다고 생각하지 않았던 질문을 보니까 너무 내가 생각없이 외우기만 한건 아닌가 반성하게 됐다. 다음에도 재밌는 질문이 있었으면 좋겠다.
 <br>
+
+# refrerence
+---
+[ASCII character history](http://jkorpela.fi/latin1/ascii-hist.html#7C)
+<br>
+[B (프로그래밍 언어) - 위키백과](https://ko.wikipedia.org/wiki/B_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
+<br>
+[알골 (프로그래밍 언어) - 위키백과](https://ko.wikipedia.org/wiki/%EC%95%8C%EA%B3%A8_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
+<br>
+[ALGOL - wikipedia](https://en.wikipedia.org/wiki/ALGOL)
+<br>
+[BCPL - 위키백과](https://ko.wikipedia.org/wiki/BCPL)
+<br>
+[Why is “||” the symbol for or? [closed] - stakoverflow](https://stackoverflow.com/questions/15056896/why-is-the-symbol-for-or)
+<br>
+[\<프로그래밍 언어론\> 배커스-나우르 형식 - N.A의 자료실](https://naturaaurum.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%96%B8%EC%96%B4%EB%A1%A0-%EB%B0%B0%EC%BB%A4%EC%8A%A4-%EB%82%98%EC%9A%B0%EB%A5%B4-%ED%98%95%EC%8B%9D)
+<br>
+[배커스-나우어 형식(BNF) -  코딩스낵](https://gusdnd852.tistory.com/307)
